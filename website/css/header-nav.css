@@ -1,0 +1,136 @@
+header {
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
+  height: 6rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-seksioni1 {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+}
+
+.logoja {
+  width: 5rem;
+}
+
+.menu:link,
+.menu:visited {
+  color: #343a40;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2.2rem;
+}
+
+.menu:hover,
+.menu:active {
+  color:#e7f6f2;
+  background: linear-gradient(to bottom right, #0CA678, #6dcaae);
+}
+
+.nav-seksioni2 {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+}
+
+.rregjistrim:link,
+.rregjistrim:visited {
+  font-family: "Rubik";
+  text-decoration: none;
+  color: #e7f6f2;
+  box-shadow: 0px 0px 5px rgba(52, 58, 64, 0.7);
+  font-weight: 600;
+  background-color: #0ca678;
+  padding: 2.2rem;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  transition: background-color 0.5s;
+}
+
+.rregjistrim:hover,
+.rregjistrim:active {
+  background-color: #0a8560;
+}
+
+.hyrje:link,
+.hyrje:visited {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-weight: 600;
+  color: #e7f6f2;
+  background-color: #55c1a1;
+  padding: 2.2rem;
+  font-size: 1.6rem;
+  box-shadow: 0px 0px 5px rgba(52, 58, 64, 0.7);
+  transition: background-color 0.5s;
+}
+
+.hyrje:hover,
+.hyrje:active {
+  background-color: #0a8560;
+}
+
+.kontenjeri-searchit {
+  box-shadow: 0px 0px 3px rgba(52, 58, 64, 0.7);
+  border-radius: 0.5rem;
+  width: 40rem;
+  position: relative;
+}
+.search-bar {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  border-radius: 0.5rem;
+}
+
+.kontenjeri-searchit img {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+}
+
+.shiriti_gjuheve {
+  width: 100%;
+  position: fixed;
+  margin-top: 6rem;
+  height: fit-content;
+  background: linear-gradient(to bottom, #4c4e50, #212529);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+
+.link_gjuha_programimit:link,
+.link_gjuha_programimit:visited {
+  padding: 0.8rem 1.2rem;
+  color: #e7f6f2;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.link_gjuha_programimit:hover,
+.link_gjuha_programimit:active {
+  color: #212529;
+  background-color: #55c1a1;
+}

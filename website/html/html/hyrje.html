@@ -1,0 +1,375 @@
+<!-- CHECKOUT
+1. Titulli i uebfaqes
+2. Logoja e Titullit te uebfaqes
+3. CSS
+4. Fonts
+5. Logoja ne Header
+6. Search Icon ne Header 
+7. Para Mbrapa Icons ne Permbajtje
+8. Logo ne Footer
+-->
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML | Hyrje</title>
+  <link rel="stylesheet" href="./../../css/init.css">
+  <link rel="stylesheet" href="./../../css/header-nav.css">
+  <link rel="stylesheet" href="./../../css/nav-vertikal.css">
+  <link rel="stylesheet" href="./../../css/permbajtja.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css"/>
+  <link rel="icon" href="./../../images/ProgramimShqipLogo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./../../css/responsive.css">
+  <style>
+    .tag--name {
+      font-size: 1.8rem;
+      color: rgb(221, 28, 28);
+      font-family: 'Myriad Pro','Jetbrains Mono','Courier New', Courier, monospace;
+    }
+
+    .kontenti {
+      font-size: 1.8rem;
+      font-family: 'Myriad Pro','Jetbrains Mono','Courier New', Courier, monospace;
+      font-style: italic;
+    }
+
+    .arrow {
+      font-size: 1.8rem;
+      color: #0CA678;
+      font-family: 'Myriad Pro','Jetbrains Mono','Courier New', Courier, monospace;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-seksioni1">
+      <a href="./../../../index.html">
+        <img src="./../../images/ProgramimShqipLogo.png" alt="logoja e uebfaqes" class="logoja" title="Faqja kryesore Programim Shqip"/>
+      </a>
+      <a href="./../../../index.html" class="menu" title="Kreu i faqes">Kreu</a>
+      <a href="#" class="menu" title="Kurset qe ofron Programim Shqip">Kurset</a>
+      <a href="#" class="menu" title="Rreth Programim Shqip">Rreth nesh</a>
+    </div>
+
+    <div class="nav-seksioni2">
+      <div class="kontenjeri-searchit">
+        <input type="text" class="search-bar" placeholder="Kërko..." />
+        <a href="#">
+          <img src="./../../images/icon-search.png" alt="search icon" />
+        </a>
+      </div>
+      <div class="rregjistrim-hyr">
+        <a href="#" class="rregjistrim" title="Rregjistrohu në uebfaqe">Rregjistrohu</a>
+        <a href="#" class="hyrje" title="Hyr në uebfaqe">Hyr</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="shiriti_gjuheve">
+    <a href="#" class="menuja--leksioneve"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#E7F6F2" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg></a>
+    <a href="./hyrje.html" title="Python" class="link_gjuha_programimit">HTML</a>
+  </nav>
+
+  <div class="nav-vertikal">
+    <h2>Leksione HTML</h2>
+    <ul>
+      <li class="tema"><a href="./hyrje.html">HTML | Hyrje</a></li>
+    </ul>
+  </div>
+
+  <div class="main-wrapper">
+    <div class="content-area">
+      <div class="permbajtja">
+        <div class="permbajtja_header">
+          <h1 class="titulli--faqes">HTML | Hyrje</h1>
+          <a class="butoni--navigimit butoni--pas flexbox--center" href="../../index.html">
+            <img width="24" height="24" src="./../../images/icons8-chevron-left-24.png" alt="chevron-left" />
+            <span class="text">Mbrapa</span>
+          </a>
+          <a class="butoni--navigimit butoni--para flexbox--center" href="./pse-zgjedhim-python.html">
+            <span class="text">Para</span>
+            <img width="24" height="24" src="./../../images/icons8-chevron-right-24.png" alt="chevron-right" />
+          </a>
+        </div>
+
+        <div class="container--content">
+          <h2>Çfarë është HTML?</h2>
+          <ul>
+            <li><b>HTML</b> është shkurtimi për <span class="italic">HyperText Markup Language</span>.</li>
+            <li>HTML përdoret për të strukturuar faqet e internetit duke përdorur etiketa të ndryshme (tags).</li>
+            <li>
+              Çdo faqe që shihni në internet – qoftë Facebook, YouTube apo Wikipedia – ka HTML në prapaskenë që përshkruan se si duhet të duket dhe të funksionojë ajo faqe.
+            </li>
+          </ul>
+          <hr>
+          <h2>Çfarë do të thotë “HyperText Markup Language”?</h2>
+          <ul>
+            <li>"HyperText Markup Language" përkthehet në shqip si <b>"Gjuhë shënjimi për hipertekste"</b>. </li>
+          </ul>
+          <p>Le ta zbërthejmë këtë shprehje në pjesë më të kuptueshme:</p>
+          <ul>
+            <li>
+              <b>Gjuhë shënjimi</b>: HTML nuk është një gjuhë programimi. Është një gjuhë që <span class="italic">shënjon përmbajtjen e faqes duke përdorur etiketa</span>, të cilat i tregojnë shfletuesit se çfarë lloj përmbajtjeje po shfaqet (tekst, foto, lidhje etj.).
+            </li>
+            <li>
+              <b>Hipertekst</b>: Është një tekst që përmban lidhje me faqe të tjera në internet. HTML e mundëson këtë duke krijuar lidhje ndërfaqe që ndihmojnë në navigimin mes faqeve.
+            </li>
+          </ul>
+          <h3>Si ta kuptojmë më thjeshtë?</h3>
+          <p>Imagjinoni HTML-në si një mënyrë për t’i thënë shfletuesit (p.sh. Google Chrome):</p>
+          <img src="#" alt="Sugjerim vizual: Krijo një pamje të ndarë në dy pjesë – në njërën anë kodi HTML, dhe në anën tjetër rezultati që shfaqet në shfletues. Kjo ndihmon jashtëzakonisht për të kuptuar lidhjen mes kodit dhe pamjes përfundimtare.">
+          <p>
+            "Hej, kjo është faqja ime! Këtu është titulli, ky është paragrafi, ja një foto, dhe këtu është një buton që çon diku tjetër."
+          </p>
+          <h2>Çfarë është një element HTML?</h2>
+          <ul>
+            <li>Një element HTML është <span class="underline">njësia themelore ndërtimore e një faqeje web</span>.</li>
+            <li>
+              Një element HTML <span class="underline">përfaqëson një pjesë të përmbajtjes</span> ose të strukturës së dokumentit HTML, si për shembull një paragraf, një titull, një link, etj.
+            </li>
+          </ul>
+          <h3>Sintaksa</h3>
+          <span class="arrow">&lt;</span><span class="tag--name">tagu-hapës</span><span class="arrow">&gt;</span><span class="kontenti">Përmbajtja</span><span class="arrow">&lt;/</span><span class="tag--name">tagu-mbyllës</span><span class="arrow">&gt;</span>
+          <h3>Shembull</h3>
+          <div class="kodim_container">
+            <p class="kodim_titull flexbox">
+              <img src="./../../images/html-file-32.png" alt="html file icon">
+              </svg>
+              <span>Shembull</span>
+            </p>
+            <div class="kodim">
+              <pre><code class="language-html">&lt;p&gt; Faqja “Programim Shqip” ju ndihmon të mësoni programim në mënyrën e duhur. &lt;/p&gt;</code></pre>
+            </div>
+          </div>
+          <ul>
+            <li><span class="tags">&lt;p&gt;</span> është <b>tagu hapës</b>,</li>
+            <li>
+              <i>"Faqja “Programim Shqip” ju ndihmon të mësoni programim në mënyrën e duhur"</i> është <b>përmbajtja e elementit</b>,
+            </li>
+            <li><span class="tags">&lt;/p&gt;</span> është <b>tagu mbyllës</b>.</li>
+          </ul>
+          <h2>Çfarë është një Shfletues?</h2>
+          <p>
+            Një shfletues (në anglisht: <b>browser</b>) është një program kompjuterik që përdoret për të hyrë dhe shfaqur faqe interneti.
+          </p>
+          <h3>Çfarë bën një shfletues?</h3>
+          <ul>
+            <li>Merr përmbajtjen nga interneti (zakonisht në formën e skedarëve <b>HTML</b>, <b>CSS</b> dhe <b>Javascript</b>).</li>
+            <li>Interpreton dhe shfaq atë përmbajtje në mënyrë të kuptueshme vizualisht për përdoruesin.</li>
+            <li>Ndërvepron me përdoruesin dhe me faqet (për shembull: <span class="italic">kur klikoni një link</span>, <span class="italic">kur plotësoni një formular</span>, etj.).</li>
+          </ul>
+          <h3>Shfletuesit më të njohur</h3>
+          <table>
+            <caption>Shfletuesit dhe Zhvilluesit e tyre</caption>
+            <thead>
+              <tr>
+                <th>Emri</th>
+                <th>Zhvilluar nga</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Google Chrome</td>
+                <td>Google</td>
+              </tr>
+              <tr>
+                <td>Mozilla Firefox</td>
+                <td>Mozilla Foundation</td>
+              </tr>
+              <tr>
+                <td>Microsoft Edge</td>
+                <td>Microsoft</td>
+              </tr>
+              <tr>
+                <td>Safari</td>
+                <td>Apple</td>
+              </tr>
+              <tr>
+                <td>Opera</td>
+                <td>Opera Software</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+          <h2>Versionet e HTML</h2>
+          <p>
+            Që nga krijimi i saj në fillim të viteve ’90, HTML ka kaluar nëpër shumë versione e përmirësime, duke reflektuar zhvillimin teknologjik dhe nevojat në rritje të internetit modern.
+          </p>
+          <h3>🌱 HTML 1.0 – Fillimi i Web-it (1991)</h3>
+          <p>
+            Në vitin 1991, <b>Tim Berners-Lee</b>, shkencëtar në CERN dhe shpikës i World Wide Web-it, prezantoi versionin e parë të HTML. Ishte shumë i thjeshtë dhe përdorej vetëm për të strukturuar tekste dhe lidhje.
+          </p>
+          <h4>Karakteristikat</h4>
+          <ul>
+            <li>Nuk kishte mbështetje për imazhe ose tabela</li>
+            <li>Vetëm etiketa bazë si <span class="tags">&lt;p&gt;</span>, <span class="tags">&lt;a&gt;</span>, <span class="tags">&lt;h1&gt;</span> etj.</li>
+          </ul>
+          <h3>🔧 HTML 2.0 – Standardi i parë zyrtar (1995)</h3>
+          <p>HTML 2.0 u publikua nga <b>IETF</b> dhe u bë standardi i parë zyrtar për ndërtimin e faqeve web.</p>
+          <h4>Karakteristikat</h4>
+          <ul>
+            <li>Mbështetje për forma (formularë me <span class="tags">&lt;form&gt;</span>, <span class="tags">&lt;input&gt;</span>)</li>
+            <li>Shtoi më shumë etiketa strukturore</li>
+            <li>Përmirësoi lidhjet dhe listat</li>
+          </ul>
+          <h3>🖼️ HTML 3.2 – Rritja e përmbajtjes vizuale (1997)</h3>
+          <p>
+            Ky version u zhvillua nga <b>W3C (World Wide Web Consortium)</b> dhe solli një përmirësim të dukshëm në dizajnin dhe paraqitjen vizuale të faqeve.
+          </p>
+          <h4>Karakteristikat</h4>
+          <ul>
+            <li>Tabela (<span class="tags">&lt;table&gt;</span>)</li>
+            <li>Mbështetje për <b>JavaScript</b></li>
+            <li><b>Style Sheets</b> (CSS) në një formë fillestare</li>
+            <li>Elementët për imazhe si <span class="tags">&lt;img&gt;</span></li>
+          </ul>
+          <h3>🧩 HTML 4.01 – Ndarja e strukturës nga dizajni (1999)</h3>
+          <p>Ky version konsolidoi shumë nga risitë e mëparshme dhe vendosi themelet për zhvillim më të strukturuar të faqeve.</p>
+          <h4>Karakteristikat</h4>
+          <ul>
+            <li>Ndarja midis strukturës (HTML) dhe stilimit (CSS)</li>
+            <li><b>Frameset</b> – Përdorej për ndarje me korniza (frames)</li>
+          </ul>
+          <h3>🚀 HTML5 – Epoka moderne e Web-it (2014 – tani)</h3>
+          <p>Pas disa viteve zhvillimi, HTML5 u bë standardi kryesor i web-it modern. Është ende versioni aktiv sot.</p>
+          <h4>Karakteristikat</h4>
+          <ul>
+            <li>Elementë të rinj semantikë: <span class="tags">&lt;header&gt;</span>, <span class="tags">&lt;footer&gt;</span>, <span class="tags">&lt;article&gt;</span>, <span class="tags">&lt;section&gt;</span></li>
+            <li>Mbështetje për <b>video</b> dhe <b>audio</b> pa nevojë për shtojca</li>
+            <li><b>Canvas</b> dhe <b>SVG</b> për grafikë dhe animacione</li>
+            <li>Funksionalitete të reja me <b>JavaScript API</b> (geolocation, storage, drag-and-drop, etj.)</li>
+            <li>Integrim i fuqishëm me <b>CSS3</b> dhe <b>JavaScript</b></li>
+          </ul>
+          <h3>🔮 E ardhmja e HTML</h3>
+          <p>
+            HTML është një teknologji në zhvillim të vazhdueshëm. Në vend që të presim një HTML6, komuniteti i zhvilluesve dhe W3C tani funksionojnë me një qasje të <b>përditësimeve të vazhdueshme</b>, duke shtuar karakteristika të reja hap pas hapi sipas nevojave.
+          </p>
+          <hr>
+          <h2>HTML nuk është…</h2>
+          <ul>
+            <li>❌ HTML <b>nuk bën llogaritje</b> si gjuhët e programimit.</li>
+            <li>❌ HTML <b>nuk reagon ndaj veprimeve</b> si klikimet (këtë e bën JavaScript).</li>
+            <li>❌ HTML <b>nuk përcakton stilin vizual</b> të faqes (këtë e bën CSS).</li>
+          </ul>
+          <p>
+            HTML <span class="underline">vetëm strukturon përmbajtjen</span>. Ajo është themeli mbi të cilin ndërtohen pjesët e tjera të faqes si logjika (JavaScript) dhe dizajni (CSS).
+          </p>
+          <h2>Struktura bazike e një faqeje HTML</h2>
+          <img src="#" alt="imazhi i kodit html">
+          <ul>
+            <li><span class="tags">&lt;!DOCTYPE html&gt;</span> – Tregon që po përdor versionin më të fundit të HTML (HTML5).</li>
+            <li><span class="tags">&lt;html&gt;</span> – Fillimi i dokumentit HTML.</li>
+            <li><span class="tags">&lt;head&gt;</span> – Përmban informacione për faqen (jo e dukshme në vetë faqen).</li>
+            <li><span class="tags">&lt;title&gt;</span> – Shfaqet në titullin e skedës së shfletuesit.</li>
+            <li><span class="tags">&lt;body&gt;</span> – Pjesa ku vendosen të gjitha elementet që do të shihen nga vizitori.</li>
+            <li><span class="tags">&lt;h1&gt;</span> – Një titull kryesor.</li>
+            <li><span class="tags">&lt;p&gt;</span> – Një paragraf me tekst.</li>
+          </ul>
+        </div>
+ 
+        <div class="permbajtja_footer flexbox--anet">
+          <a class="butoni--navigimit butoni--pas flexbox--center" href="../../index.html">
+            <img width="24" height="24" src="./../../images/icons8-chevron-left-24.png" alt="chevron-left" />
+            <span class="text">Mbrapa</span>
+          </a>
+          <a class="butoni--navigimit flexbox--center" href="./pse-zgjedhim-python.html">
+            <span class="text">Para</span>
+            <img width="24" height="24" src="./../../images/icons8-chevron-right-24.png" alt="chevron-right" />
+          </a>
+        </div>
+      </div>
+      <div class="reklama">
+        <h3>Reklama</h3>
+        <p>Reklama këtu</p>
+      </div>
+    </div>
+    <footer>
+      <div class="top top--lessons">
+        <h3>Leksionet kryesore</h3>
+        <ul class="flexbox--center">
+          <li><a href="./hyrje.html">Leksione HTML</a></li>
+          <li><a href="#">Leksione CSS</a></li>
+          <li><a href="#">Leksione Javascript</a></li>
+          <li><a href="#">Leksione PHP</a></li>
+          <li><a href="#">Leksione SQL</a></li>
+          <li><a href="#">Leksione Python</a></li>
+          <li><a href="#">Leksione Java</a></li>
+          <li><a href="#">Leksione C#</a></li>
+          <li><a href="#">Leksione C++</a></li>
+          <li><a href="#">Leksione C</a></li>
+          <li><a href="#">Leksione R</a></li>
+        </ul>
+      </div>
+      <div class="top top--technologies">
+        <h3>Teknologjitë më në treg</h3>
+        <ul class="flexbox--center">
+          <li><a href="#">Cloud Computing</a></li>
+          <li><a href="#">Amazon Web Services</a></li>
+          <li><a href="#">Microsoft Azure</a></li>
+          <li><a href="#">Hacking</a></li>
+          <li><a href="#">Unix</a></li>
+          <li><a href="#">Git</a></li>
+        </ul>
+      </div>
+      <div class="top top--exercises">
+        <h3>Ushtrime</h3>
+        <ul class="flexbox--center">
+          <li><a href="#">Ushtrime HTML</a></li>
+          <li><a href="#">Ushtrime CSS</a></li>
+          <li><a href="#">Ushtrime Javascript</a></li>
+          <li><a href="#">Ushtrime PHP</a></li>
+          <li><a href="#">Ushtrime SQL</a></li>
+        </ul>
+      </div>
+      <div class="top top--certifications">
+        <h3>Çertifikata</h3>
+        <ul class="flexbox--center">
+          <li><a href="#">Çertifikatë DevOps</a></li>
+          <li><a href="#">Çertifikatë Data Science</a></li>
+          <li><a href="#">Çertifikatë Game Development</a></li>
+        </ul>
+      </div>
+      <div class="social--media flexbox--center">
+        <img src="./../../images/ProgramimShqipLogo.png" style="width: 50px; height: 50px;" alt="Programim Shqip Logo">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 256 256"><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"></path></svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 256 256"><path d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"></path></svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 256 256"><path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path></svg>
+        </a>
+
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+        </a>
+      </div>
+      <div class="terms flexbox--center">
+        <a href="#">Rreth Nesh</a>
+        <a href="#">Na Kontaktoni</a>
+        <a href="#">Politikat e privatësisë</a>
+        <a href="#">Kushtet e përdorimit</a>
+        <a href="#">Skuadra jonë</a>
+        <a href="#">Karriera</a>
+      </div>
+      <div class="copyright--text flexbox--center">Copyright &copy; 2025. Të gjitha të drejtat e rezervuara.</div>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@media (min-width: 1201px) and (max-width: 1300px) {
+  /* stilizime për desktopë të mëdhenj */
+  .nav-vertikal {
+    width: 25rem;
+  }
+
+  .main-wrapper {
+    margin-left: 25rem;
+    width: calc(100% - 25rem);
+  }
+
+  .content-area {
+    flex: 2.4;
+  }
+
+  .reklama {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* stilizime për desktopë të vegjël */
+  /* html {
+    font-size: 50%;
+  } */
+
+  .tema {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* stilizime për tablet */
+  /* html {
+    font-size: 40%;
+  } */
+
+  .tema {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* stilizime për telefonë të zakonshëm */
+  /* html {
+    font-size: 50%;
+  } */
+
+  .tema {
+    font-size: 1.6rem;
+  }
+
+  .nav-vertikal {
+    width: 15rem;
+    height: 100%;
+  }
+
+  .nav-vertikal h2 {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+
+.tema a:link, .tema a:visited {
+  padding: 0.5rem 2rem;
+  padding-right: 2rem;
+}
+
+  .main-wrapper {
+    margin-left: 15rem;
+    width: calc(100%);
+  }
+
+  .content-area {
+    display: block;
+  }
+
+  .permbajtja {
+    width: 133.5%;
+  }
+
+  .reklama {
+    display: none;
+  }
+
+  footer {
+    width: 133.5%;
+  }
+
+  .nav-seksioni1 {
+    gap: 2rem;
+  }
+
+  .nav-seksioni2 {
+    gap: 2rem;
+  }
+
+  .kontenjeri-searchit {
+    width: 25rem;
+  }
+
+  .rregjistrim-hyr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rregjistrim:link, .rregjistrim:visited {
+    padding: 3.1rem 1.2rem;
+    font-size: 1.2rem;
+    /* margin-right: 0rem; */
+  }
+
+  .hyrje:link, .hyrje:visited {
+    padding: 3.1rem 1.6rem;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  /* stilizime për telefonë shumë të vegjël */
+  .nav-vertikal {
+    display: none;
+  }
+
+  .reklama {
+    display: none;
+  }
+
+  .main-wrapper {
+    margin-left: 0rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  footer {
+    width: 100%;
+    flex: 0.5;
+    grid-column: 1 / -1;
+  }
+}

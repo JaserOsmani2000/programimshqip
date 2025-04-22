@@ -1,0 +1,42 @@
+.nav-vertikal {
+  position: fixed;
+  top: 9.6rem;
+  z-index: 100;
+  left: 0;
+  width: 30rem;
+  height: calc(100vh - 9.4rem);
+  background-color: #b6e4d7;
+  overflow-y: auto;
+}
+
+.nav-vertikal ul {
+  margin-top: 2rem;
+}
+
+.tema {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.nav-vertikal h2 {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  margin-left: 1.4rem;
+  color: #343a40;
+}
+
+.tema a:link, .tema a:visited {
+  text-decoration: none;
+  color: #484e53;
+  width: 100%;
+  display: inline-block;
+  padding: 1rem 4rem;
+  padding-right: 2rem;
+}
+
+.tema a:hover, .tema a:active {
+  color: #e7f6f2;
+  background: linear-gradient(to bottom right, #0CA678, #6dcaae);
+  font-weight: 600;
+}

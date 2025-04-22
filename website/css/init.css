@@ -1,0 +1,164 @@
+/* 
+Colors:
+<h1>, <h2>, <p>: #343a40
+
+* - Font sizes (px)
+* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 / ...
+
+* - Spacing System (px)
+* 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: "Rubik", "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.flexbox--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox--anet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Content Definitions */
+.container--content h2 {
+  margin: 2rem 0rem;
+  font-size: 2.4rem;
+}
+
+.container--content h3 {
+  margin: 2rem 0rem;
+  font-size: 2rem;
+}
+
+.container--content h4 {
+  margin: 2rem 0rem;
+  font-size: 1.8rem;
+}
+
+.container--content ul {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-right: 3rem;
+}
+
+.container--content ul li {
+  margin-bottom: 0.8rem;
+}
+
+.container--content ul li:last-child {
+  margin-bottom: 1.6rem;
+}
+
+.container--content p {
+  margin: 1.6rem 0rem;
+  margin-right: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  /* font-family: Arial, sans-serif; */
+  font-size: 1.4rem;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background: linear-gradient(to bottom right, #0CA678, #6dcaae);
+  color: #ebebec;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Kod Definitions */
+
+.kodim_container {
+  width: 90%;
+  background: linear-gradient(to right, #0ca678, #0a8560);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: fit-content;
+}
+
+.kodim {
+  width: 100%;
+  background-color: #2d2d2d;
+}
+
+.kodim_titull {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  /* padding: 1.6rem; */
+  padding-left: 1.6rem;
+  font-size: 1.8rem;
+  color: #ebebec;
+}
+
+code {
+  font-family: "Jetbrains Mono";
+  color: #ebebec;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 1.2rem 3.2rem;
+  line-height: 1.5;
+}
+
+pre {
+  background-color: #282c34;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.koment {
+  color: #c2c4c6;
+}
+
+.tags {
+  background-color: #0ca678;
+  color:#ebebec;
+  padding: 0rem 0.4rem;
+  border-radius: 5px;
+  font-family: "Jetbrains Mono";
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  border-bottom: 2px dashed #282c34;
+  padding-bottom: 0.1rem;
+}
