@@ -139,8 +139,8 @@
   }
 
   header {
-    justify-content: flex-start;
     gap: 6rem;
+    max-width: 100%;
   }
 
   .search--icon {
@@ -152,14 +152,8 @@
   }
 
   .nav-seksioni2 {
-    gap: 10rem;
+    gap: 5rem;
   }
-
-
-
-
-
-
 
   .nav-vertikal {
     display: none;
@@ -174,12 +168,35 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
+  }
 
+  .content-area {
+    width: 100%;
+  }
+
+  .permbajtja {
+    width: 50vw;
   }
 
   footer {
     width: 100%;
-    flex: 0.5;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1 / -1;
+  }
+
+  .top {
+    height: 28rem;
+  }
+
+  .top--certifications {
+    grid-column: 1 / -1;
+    height: 13rem;
+  }
+
+  .terms {
+    margin-top: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
   }
 }
