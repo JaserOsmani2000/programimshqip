@@ -35,6 +35,8 @@ header {
 .menu:active {
   color:#e7f6f2;
   background: linear-gradient(to bottom right, #0CA678, #6dcaae);
+  fill: #e7f6f2;
+  stroke: #e7f6f2;
 }
 
 .nav-seksioni2 {
